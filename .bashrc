@@ -119,3 +119,5 @@ alias config='/usr/bin/git --git-dir=/home/ag/.myconfig/ --work-tree=/home/ag'
 # Make neovim the default editor.
 export VISUAL=nvim
 export EDITOR="$VISUAL"
+
+export PATH=/home/ag/.local/bin:$PATH
