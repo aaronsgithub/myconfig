@@ -22,4 +22,6 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 # initialise pyenv
-source $HOME/.pyenvrc
+if [ -f "$HOME/.pyenvrc" ] && [ -d "$HOME/.pyenv" ]; then
+	source $HOME/.pyenvrc
+fi

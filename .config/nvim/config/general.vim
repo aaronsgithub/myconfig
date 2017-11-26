@@ -60,3 +60,14 @@ tnoremap <Esc> <C-\><C-n>
 " From https://stackoverflow.com/a/15584901
 noremap tt :tab split<CR>
 noremap tc :tabc<CR>
+
+
+" Indentation
+set autoindent
+set smartindent
+set expandtab
+set smarttab
+set shiftwidth=4
+set tabstop=4
+
+
