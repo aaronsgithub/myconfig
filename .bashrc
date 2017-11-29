@@ -121,3 +121,9 @@ export VISUAL=nvim
 export EDITOR="$VISUAL"
 
 export PATH=/home/ag/.local/bin:$PATH
+
+# If using https://github.com/aaronsgithub/myconfig, use the wsl branch
+# Add lines specific to this system below here
+# -------------------------------------------
+source ~/.wslrc
+
